@@ -2,4 +2,4 @@
 
 ### My archive of Swift exercises 
 
-This repo will act as a place to keep all of the coding solutions that I have been writing for online exercises and challenges in the Swift language.
+This is where I will keep all of my Swift source code that I have written for solutions to online challenges and exercises. Everything I have written in the Swift language - <i>except project related code</i> - will be stored here. I will try to maintain and update code files as I become more experienced in Swift.
