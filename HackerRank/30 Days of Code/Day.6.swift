@@ -16,7 +16,7 @@ func printEvenAndOdd(string: String) {
     for i in 0..<input.count {
         if input.index(after: i-1) % 2 == 0 {
             even.append(input[i])
-        } else if input.index(after: i-1) % 2 != 0 {
+        } else {
             odd.append(input[i])
         }
     }
