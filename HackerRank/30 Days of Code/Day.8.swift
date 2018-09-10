@@ -1,4 +1,4 @@
-// Day 8 - Dictionaries and Maps
+//Day 8: Dictionaries and Maps
 
 let n = Int(readLine()!)!
 
