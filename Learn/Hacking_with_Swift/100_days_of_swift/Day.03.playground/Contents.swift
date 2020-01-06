@@ -1,4 +1,5 @@
-import UIKit
+//operators and conditions
+
 //arithmetic operators
 let firstScore = 12
 let secondScore = 4

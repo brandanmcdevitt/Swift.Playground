@@ -1,4 +1,5 @@
-import UIKit
+//variables, simple data types, and string interpolation
+
 //strings
 var str = "Hello, playground"
 //ints

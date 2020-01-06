@@ -1,3 +1,5 @@
+//arrays, dictionaries, sets, and enums
+
 //strings
 let john = "John Lennon"
 let paul = "Paul McCartney"
