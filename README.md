@@ -6,7 +6,7 @@ This is where I will keep all of my Swift source code that I have written for so
 
 #### Swift courses taken:
 
-[Hacking With Swift](https://www.hackingwithswift.com/read)</br>
+[Hacking With Swift](https://www.hackingwithswift.com/read)</br><br>
 [100 Days of Swift](https://www.hackingwithswift.com/100/)<br>
 Topics covered:
 * variables, simple data types, and string interpolation
