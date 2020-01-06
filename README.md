@@ -1,4 +1,4 @@
-# <img src="https://swift.org/assets/images/swift.svg">
+# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/1138px-Swift_logo.svg.png" width="157" height="130">
 
 ### My archive of Swift exercises 
 
