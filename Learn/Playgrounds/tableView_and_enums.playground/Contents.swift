@@ -44,13 +44,6 @@ class MyViewController: UIViewController{
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
         
-        view.backgroundColor = .white
-
-        let label = UILabel()
-        label.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
-        label.text = "Hello World!"
-        label.textColor = .black
-        
         view.addSubview(tableView)
         self.view = view
         tableView.delegate = self
