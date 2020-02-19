@@ -24,20 +24,25 @@ class MyViewController : UIViewController {
         register.translatesAutoresizingMaskIntoConstraints = false
         
         outerContainer.backgroundColor = .black
-//        topContainer.backgroundColor = .red
-//        bottomContainer.backgroundColor = .blue
+        
+        /*
+         colour the top and bottom containers to easily visualise the views
+         
+        topContainer.backgroundColor = .red
+        bottomContainer.backgroundColor = .blue
+         */
 
-        logo.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
         logo.text = "Test App"
         logo.textColor = .white
+        logo.textAlignment = .center
         
-        login.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
         login.text = "Login"
         login.textColor = .white
+        login.textAlignment = .center
         
-        register.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
         register.text = "Register"
         register.textColor = .white
+        register.textAlignment = .center
         
         topContainer.addSubview(logo)
         bottomContainer.addSubview(login)
@@ -61,14 +66,20 @@ class MyViewController : UIViewController {
             // logo
             logo.centerXAnchor.constraint(equalTo: topContainer.centerXAnchor),
             logo.centerYAnchor.constraint(equalTo: topContainer.centerYAnchor),
+            logo.widthAnchor.constraint(equalToConstant: 80),
+            logo.heightAnchor.constraint(equalToConstant: 20),
             
             // login
             login.centerXAnchor.constraint(equalTo: bottomContainer.centerXAnchor),
             login.centerYAnchor.constraint(equalTo: bottomContainer.centerYAnchor, constant: -20),
+            login.widthAnchor.constraint(equalToConstant: 80),
+            login.heightAnchor.constraint(equalToConstant: 20),
             
             // register
             register.centerXAnchor.constraint(equalTo: bottomContainer.centerXAnchor),
             register.centerYAnchor.constraint(equalTo: bottomContainer.centerYAnchor),
+            register.widthAnchor.constraint(equalToConstant: 80),
+            register.heightAnchor.constraint(equalToConstant: 20),
         ])
     }
 }
