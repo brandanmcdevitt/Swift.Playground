@@ -10,13 +10,14 @@ This is where I will keep all of my Swift source code that I have written for so
 
 [Hacking With Swift](https://www.hackingwithswift.com/read)</br>
 [100 Days of Swift](https://www.hackingwithswift.com/100/)<br>
+[iOS Developer Nanodegree](https://www.udacity.com/course/ios-developer-nanodegree--nd003)<br>
 [Stanford University's Developing Applications for iOS - CS193p (Fall 2017)](https://cs193p.sites.stanford.edu)<br><br>
 
 Topics covered:
 * variables, simple data types, and string interpolation
 * arrays, dictionaries, sets, and enums
 * operators and conditions
-* loops, loops, and more loops
+* loops
 * functions, parameters, and errors
 * closures
 * structs, properties, and methods
