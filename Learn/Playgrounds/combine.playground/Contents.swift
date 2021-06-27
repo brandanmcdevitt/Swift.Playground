@@ -1,4 +1,4 @@
-// practicing codable with the icanhazdadjoke API
+// Update the codable playground to use Combine
   
 import UIKit
 import PlaygroundSupport
